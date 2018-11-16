@@ -13,7 +13,7 @@ It should however be noted that Microsoft provides a [[web based GUI]](https://d
 
 ## Create application & set permissions
 
-Before you can interact with MS Graph, you first need to create an application in Office365. This can be done over [[here]](https://apps.dev.microsoft.com/).
+Before this code can interact with MS Graph, you first need to create an application in Office365. This can be done over [[here]](https://apps.dev.microsoft.com/).
 The code currently only supports password based authentication. Therefore, if you're going to use the code you can only use password based authentication.
 You also need to set the correct permissions. The required application permissions for Microsoft Planner can be found in the API documentation [[2]](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/plannerplan_list_tasks).
 If the permissions require admin consent you can apply consent inside the Azure Active Directory console of Office365. The exact steps are: Azure Active Directory > App registrations (Preview) > applicationname > API permissions > Grant admin consent for TENANT).
